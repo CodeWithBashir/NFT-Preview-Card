@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 95%);
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  margin: 10rem auto;
+  max-width: 26rem;
+  padding: 1.6rem;
+  border-radius: 1rem;
+}
+
+.card-img {
+  width: 100%;
+  height: 22rem;
+  border-radius: 0.5rem;
+
+  margin-bottom: 1.6rem;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-img:hover {
+  transform: scale(1.01);
+  background-image: url("images/icon-view.svg");
+  background-size: cover;
+
+  width: 100%;
+  height: 22rem;
+}
+
+.card-name {
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-name:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.card-description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.price-and-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1.6rem;
+  border-bottom: 0.1rem solid hsl(215, 32%, 27%);
+}
+.price {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.time {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+}
+
+.createdby {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.06rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.name {
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.name:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.createdby img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  border: 0.1rem solid hsl(215, 51%, 70%);
+}
